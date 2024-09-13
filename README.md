@@ -4,6 +4,12 @@
 
 Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. It was originally designed by Google and is now maintained by the Cloud Native Computing Foundation.
 
+## Kubernetes Architecture
+
+Kubernetes has a master-slave architecture that consists of the following components:
+
+![Kubernetes Architecture](https://kubernetes.io/images/docs/kubernetes-cluster-architecture.svg)
+
 ## Why Kubernetes?
 
 Kubernetes is a powerful tool that can help you manage your containerized applications. It provides a number of benefits, including:
