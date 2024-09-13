@@ -64,3 +64,5 @@ Kubernetes is a powerful tool that can help you manage your containerized applic
 -   `kubectl get replicasets`: List all the replica sets in the cluster
 -   `kubectl delete pod <pod-name>`: Delete the specified pod
 -   `kubectl delete replicaset <replicaset-name>`: Delete the specified replica set
+-   `kubectl get deployments`: List all the deployments in the cluster
+-   `kubectl delete deployment <deployment-name>`: Delete the specified deployment
