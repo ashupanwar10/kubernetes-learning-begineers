@@ -40,6 +40,24 @@ Kubernetes is a powerful tool that can help you manage your containerized applic
 
 -   **initContainers**: initContainers are used to run initialization tasks before the main container starts. They provide a way to perform setup tasks before your application starts.
 
+-   **readinessProbe**: readinessProbe is used to determine if a container is ready to serve traffic. It provides a way to ensure that your application is healthy before it receives traffic.
+
+-   **livenessProbe**: livenessProbe is used to determine if a container is alive. It provides a way to restart containers that are not working correctly.
+
+-   **Horizontal Pod Autoscaler**: Horizontal Pod Autoscaler is used to automatically scale the number of pods in a deployment based on CPU utilization. It provides a way to scale your application based on demand.
+
+-   **Ingress**: Ingress is used to expose your application to the outside world. It provides a way to route external traffic to your services.
+
+-   **Network Policies**: Network Policies are used to control the traffic to and from your pods. They provide a way to define rules for how your pods communicate with each other.
+
+-   **Resource Quotas**: Resource Quotas are used to limit the amount of resources that can be used by your pods. They provide a way to prevent your applications from using too many resources.
+
+-   **Pod Security Policies**: Pod Security Policies are used to control the security settings of your pods. They provide a way to define rules for how your pods run.
+
+-   **Service Accounts**: Service Accounts are used to provide an identity for your pods. They provide a way to authenticate your pods with other services.
+
+-   **RBAC (Role-Based Access Control)**: RBAC is used to control access to your resources in Kubernetes. It provides a way to define roles and permissions for your users.
+
 ## Installation
 
 -   **Minikube**: Minikube is a tool that makes it easy to run Kubernetes locally. It creates a single-node Kubernetes cluster on your local machine.
