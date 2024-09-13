@@ -36,6 +36,10 @@ Kubernetes is a powerful tool that can help you manage your containerized applic
 
 -   **Events**: Events are used to track the state of your resources in Kubernetes. They provide a way to monitor the health of your cluster and to troubleshoot issues.
 
+-   **Labels and Selectors**: Labels are key-value pairs that are attached to resources in Kubernetes. They provide a way to organize and select your resources.
+
+-   **initContainers**: initContainers are used to run initialization tasks before the main container starts. They provide a way to perform setup tasks before your application starts.
+
 ## Installation
 
 -   **Minikube**: Minikube is a tool that makes it easy to run Kubernetes locally. It creates a single-node Kubernetes cluster on your local machine.
