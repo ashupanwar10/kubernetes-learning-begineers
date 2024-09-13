@@ -48,6 +48,9 @@ Kubernetes is a powerful tool that can help you manage your containerized applic
 
 -   `kubectl get nodes`: List all the nodes in the cluster
 -   `kubectl get pods`: List all the pods in the cluster
+-   `kubectl describe pod <pod-name>`: Describe the specified pod
+-   `kubectl logs <pod-name>`: View the logs of the specified pod
+-   `kubectl exec -it <pod-name> -c <container-name> -- /bin/bash`: Open a shell in the specified pod
 -   `kubectl get services`: List all the services in the cluster
 -   `kubectl get deployments`: List all the deployments in the cluster
 -   `kubectl get namespaces`: List all the namespaces in the cluster
@@ -57,6 +60,7 @@ Kubernetes is a powerful tool that can help you manage your containerized applic
 -   `kubectl get pvc`: List all the persistent volume claims in the cluster
 -   `kubectl get events`: List all the events in the cluster
 -   `kubectl get all`: List all the resources in the cluster
+-   `watch kubectl get pods`: Watch the pods in the cluster
 
 ## BAU Commands
 
